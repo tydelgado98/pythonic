@@ -2,7 +2,7 @@ import pygame
 
 pygame.init()
 
-screen = pygame.display.set_mode((1080, 1920))
+screen = pygame.display.set_mode((1920, 1080))
 pygame.display.set_caption("Pythonic")
 
 img = pygame.image.load('./assets/picc.jpg')
