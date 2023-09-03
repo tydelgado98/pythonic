@@ -5,7 +5,7 @@ pygame.init()
 screen = pygame.display.set_mode((800, 600))
 pygame.display.set_caption("Pythonic")
 
-img = pygame.image.load('picc.jpg')
+img = pygame.image.load('./assets/icon.png')
 pygame.display.set_icon(img)
 
 
