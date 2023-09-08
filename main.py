@@ -11,6 +11,7 @@ pygame.display.set_icon(img)
 
 
 test_surface = pygame.image.load('./assets/Sky.png')
+test_ground = pygame.image.load('./assets/ground.png')
 
 while True:
     for event in pygame.event.get():
@@ -20,6 +21,7 @@ while True:
 
    
     screen.blit(test_surface, (0, 0))
+    screen.blit(test_ground, (0, 300))
           
 
     pygame.display.update()
