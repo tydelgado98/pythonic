@@ -10,7 +10,7 @@ img = pygame.image.load('./assets/picc.jpg')
 pygame.display.set_icon(img)
 
 
-test_surface = pygame.Surface((100, 200))
+test_surface = pygame.Surface((100, 150))
 test_surface.fill('blue')
 
 while True:
@@ -20,7 +20,7 @@ while True:
             quit()
 
    
-    screen.blit(test_surface, (50, 50))
+    screen.blit(test_surface, (200, 100))
           
 
     pygame.display.update()
