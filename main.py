@@ -10,6 +10,8 @@ img = pygame.image.load('./assets/picc.jpg')
 pygame.display.set_icon(img)
 
 
+test_surface = pygame.Surface((100, 200))
+
 while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
