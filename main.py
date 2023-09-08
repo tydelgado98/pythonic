@@ -2,7 +2,7 @@ import pygame
 
 pygame.init()
 
-screen = pygame.display.set_mode((1000, 500))
+screen = pygame.display.set_mode((800, 400))
 pygame.display.set_caption("Pythonic")
 clock = pygame.time.Clock()
 
@@ -19,7 +19,7 @@ while True:
             quit()
 
    
-    screen.blit(test_surface, (100, 0))
+    screen.blit(test_surface, (0, 0))
           
 
     pygame.display.update()
