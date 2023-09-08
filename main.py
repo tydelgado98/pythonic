@@ -11,7 +11,7 @@ pygame.display.set_icon(img)
 
 
 test_surface = pygame.Surface((100, 200))
-test_surface.fill('red')
+test_surface.fill('blue')
 
 while True:
     for event in pygame.event.get():
