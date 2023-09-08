@@ -11,11 +11,17 @@ pygame.display.set_icon(img)
 
 
 test_surface = pygame.Surface((100, 200))
+test_surface.fill('red')
 
 while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             pygame.quit()
             quit()
+
+   
+    screen.blit(test_surface, (100, 100))
+          
+
     pygame.display.update()
     clock.tick(60)
