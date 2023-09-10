@@ -13,7 +13,7 @@ text_surface = test_font.render('My Game', False, 'red')
 
 
 # test_surface = pygame.image.load('./assets/Sky.png')
-test_surface = pygame.Surface((1000,500))
+test_surface = pygame.Surface((800,400))
 test_surface.fill(('indigo'))
 # test_surface.fill(('grey'))
 test_ground = pygame.image.load('./assets/ground.png')
@@ -27,7 +27,7 @@ while True:
    
     screen.blit(test_surface, (0, 0))
     screen.blit(test_ground, (0, 300))
-    screen.blit(text_surface, ( 350, 50))
+    screen.blit(text_surface, (300, 50))
           
 
     pygame.display.update()
