@@ -8,6 +8,7 @@ clock = pygame.time.Clock()
 
 img = pygame.image.load('./assets/picc.jpg')
 pygame.display.set_icon(img)
+test_font = pygame.font.Font('none', 40)
 
 
 # test_surface = pygame.image.load('./assets/Sky.png')
