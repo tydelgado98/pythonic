@@ -8,7 +8,7 @@ clock = pygame.time.Clock()
 
 img = pygame.image.load('./assets/picc.jpg')
 pygame.display.set_icon(img)
-test_font = pygame.font.Font('none', 40)
+test_font = pygame.font.Font(None , 40)
 text_surface = test_font.render('My Game', False, 'red')
 
 
@@ -27,6 +27,7 @@ while True:
    
     screen.blit(test_surface, (0, 0))
     screen.blit(test_ground, (0, 300))
+    screen.blit(text_surface, ( 350, 50))
           
 
     pygame.display.update()
