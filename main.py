@@ -11,7 +11,8 @@ pygame.display.set_icon(img)
 
 
 # test_surface = pygame.image.load('./assets/Sky.png')
-test_surface = pygame.image.load((1000,500))
+test_surface = pygame.Surface((1000,500))
+test_surface.fill(('black'))
 test_ground = pygame.image.load('./assets/ground.png')
 
 while True:
