@@ -14,6 +14,7 @@ test_font = pygame.font.Font('none', 40)
 # test_surface = pygame.image.load('./assets/Sky.png')
 test_surface = pygame.Surface((1000,500))
 test_surface.fill(('indigo'))
+# test_surface.fill(('grey'))
 test_ground = pygame.image.load('./assets/ground.png')
 
 while True:
