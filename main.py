@@ -2,13 +2,13 @@ import pygame
 
 pygame.init()
 
-screen = pygame.display.set_mode((1000, 400))
+screen = pygame.display.set_mode((800, 400))
 pygame.display.set_caption("Pythonic")
 clock = pygame.time.Clock()
 
 img = pygame.image.load('./assets/picc.jpg')
 pygame.display.set_icon(img)
-test_font = pygame.font.Font(None , 60)
+test_font = pygame.font.Font(None , 30)
 text_surface = test_font.render('My Game', False, 'grey')
 
 
