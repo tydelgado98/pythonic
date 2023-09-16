@@ -26,7 +26,7 @@ while True:
     screen.blit(test_surface, (0, 0))
     screen.blit(test_ground, (0, 300))
     screen.blit(text_surface, (350, 50))
-    screen.blit(snail_surface, (60, 250))
+    screen.blit(snail_surface, (600, 250))
           
 
     pygame.display.update()
