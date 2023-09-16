@@ -28,8 +28,8 @@ while True:
     screen.blit(test_ground, (0, 300))
     screen.blit(text_surface, (350, 50))
     snail_x_pos -= 3
-    if snail_x_pos == 0 :
-        snail_x_pos += 3
+    if snail_x_pos == -100 :
+        snail_x_pos = 800
     screen.blit(snail_surface, (snail_x_pos, 250))
           
 
