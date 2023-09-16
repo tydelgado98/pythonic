@@ -15,6 +15,7 @@ text_surface = test_font.render('Pythonic', False, 'blue')
 test_surface = pygame.image.load('./assets/Sky.png')
 test_ground = pygame.image.load('./assets/ground.png')
 snail_surface = pygame.image.load('./assets/snail1.png')
+snail_x_pos = 600
 
 while True:
     for event in pygame.event.get():
@@ -26,7 +27,7 @@ while True:
     screen.blit(test_surface, (0, 0))
     screen.blit(test_ground, (0, 300))
     screen.blit(text_surface, (350, 50))
-    screen.blit(snail_surface, (600, 250))
+    screen.blit(snail_surface, (snail_x_pos, 250))
           
 
     pygame.display.update()
