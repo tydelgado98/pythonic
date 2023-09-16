@@ -9,7 +9,7 @@ clock = pygame.time.Clock()
 img = pygame.image.load('./assets/picc.jpg')
 pygame.display.set_icon(img)
 test_font = pygame.font.Font('font/pixeltype.ttf' , 40)
-text_surface = test_font.render('My Game', False, 'green')
+text_surface = test_font.render('My Game', False, 'blue')
 
 
 test_surface = pygame.image.load('./assets/Sky.png')
