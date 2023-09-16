@@ -9,12 +9,12 @@ clock = pygame.time.Clock()
 img = pygame.image.load('./assets/picc.jpg')
 pygame.display.set_icon(img)
 test_font = pygame.font.Font(None , 40)
-text_surface = test_font.render('My Game', False, 'grey')
+text_surface = test_font.render('My Game', False, 'green')
 
 
-# test_surface = pygame.image.load('./assets/Sky.png')
-test_surface = pygame.Surface((800,300))
-test_surface.fill(('indigo'))
+test_surface = pygame.image.load('./assets/Sky.png')
+# test_surface = pygame.Surface((800,300))
+# test_surface.fill(('indigo'))
 test_ground = pygame.image.load('./assets/ground.png')
 
 while True:
