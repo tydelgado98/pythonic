@@ -27,10 +27,13 @@ while True:
     screen.blit(test_surface, (0, 0))
     screen.blit(test_ground, (0, 300))
     screen.blit(text_surface, (350, 50))
-    snail_x_pos -= 3
+    snail_x_pos -= 3 
+    # that means that the snail will move 3 pixels to the left
     if snail_x_pos < -100 :
         snail_x_pos = 800
+ # that means that the snail will move to the right side of the screen
     screen.blit(snail_surface, (snail_x_pos, 264))
+    # the 264 is the y position of the snail
           
 
     pygame.display.update()
