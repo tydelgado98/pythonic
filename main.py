@@ -42,7 +42,7 @@ while True:
      # that means that the snail will move to the right side of the screen
         snail_rect = 800
      # the 264 is the y position of the snail
-    screen.blit(snail_surface, (snail_rect, 264))
+    screen.blit(snail_surface, snail_rect)
     print(player_rect.left)
     screen.blit(player_surface, player_rect)
    
