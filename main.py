@@ -26,7 +26,6 @@ player_rect = player_surface.get_rect(midbottom = (80, 300))
 
 
 
-
 while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -38,7 +37,7 @@ while True:
     screen.blit(text_surface, (350, 50))
 
      # that means that the snail will move 3 pixels to the left
-    snail_x_pos -= 3 
+    snail_rect.right -= 3 
     if snail_x_pos < -100 :
      # that means that the snail will move to the right side of the screen
         snail_x_pos = 800
