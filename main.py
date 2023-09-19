@@ -40,7 +40,7 @@ while True:
     snail_rect.right -= 3 
     if snail_rect.left <= 0:
      # that means that the snail will move to the right side of the screen
-        snail_rect.right == 800
+        snail_rect.midbottom == (80,800)
      # the 264 is the y position of the snail
     screen.blit(snail_surface, snail_rect)
     print(player_rect.left)
