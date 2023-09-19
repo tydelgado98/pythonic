@@ -24,7 +24,7 @@ snail_rect = snail_surface.get_rect(midbottom = (800, 300))
 player_rect = player_surface.get_rect(midbottom = (80, 300))
 
 
-snail_x_pos = 800
+
 
 
 while True:
