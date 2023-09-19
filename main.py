@@ -14,9 +14,9 @@ test_font = pygame.font.Font('font/pixeltype.ttf' , 40)
 text_surface = test_font.render('Pythonic', False, 'blue')
 
 # Images
-test_surface = pygame.image.load('./assets/Sky.png')
-test_ground = pygame.image.load('./assets/ground.png')
-snail_surface = pygame.image.load('./assets/snail1.png')
+sky_surface = pygame.image.load('./assets/Sky.png').convert()
+game_ground = pygame.image.load('./assets/ground.png').convert()
+snail_surface = pygame.image.load('./assets/snail1.png').convert()
 
 
 snail_x_pos = 800
@@ -28,10 +28,10 @@ while True:
             pygame.quit()
             quit()
 
-   
-    screen.blit(test_surface, (0, 0))
-    screen.blit(test_ground, (0, 300))
+    screen.blit(sky_surface, (0, 0))
+    screen.blit(game_ground, (0, 300))
     screen.blit(text_surface, (350, 50))
+
      # that means that the snail will move 3 pixels to the left
     snail_x_pos -= 3 
     if snail_x_pos < -100 :
