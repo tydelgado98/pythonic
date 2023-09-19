@@ -17,8 +17,10 @@ text_surface = test_font.render('Pythonic', False, 'blue')
 sky_surface = pygame.image.load('./assets/Sky.png').convert()
 game_ground = pygame.image.load('./assets/ground.png').convert()
 snail_surface = pygame.image.load('./assets/snail1.png').convert_alpha()
-
 player_surface = pygame.image.load('./assets/player_stand.png').convert_alpha()
+
+
+snail_rect = snail_surface.get_rect(midbottom = (800, 300))
 player_rect = player_surface.get_rect(midbottom = (80, 300))
 
 
@@ -42,7 +44,7 @@ while True:
         snail_x_pos = 800
      # the 264 is the y position of the snail
     screen.blit(snail_surface, (snail_x_pos, 264))
-    player_rect.left += 1
+    print(player_rect.left)
     screen.blit(player_surface, player_rect)
    
           
