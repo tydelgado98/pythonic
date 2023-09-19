@@ -16,10 +16,12 @@ text_surface = test_font.render('Pythonic', False, 'blue')
 # Images
 sky_surface = pygame.image.load('./assets/Sky.png').convert()
 game_ground = pygame.image.load('./assets/ground.png').convert()
+
+# character images
 snail_surface = pygame.image.load('./assets/snail1.png').convert_alpha()
 player_surface = pygame.image.load('./assets/player_stand.png').convert_alpha()
 
-
+# rectangles
 snail_rect = snail_surface.get_rect(midbottom = (800, 300))
 player_rect = player_surface.get_rect(midbottom = (80, 300))
 
