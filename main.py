@@ -38,7 +38,7 @@ while True:
 
      # that means that the snail will move 3 pixels to the left
     snail_rect.right -= 3 
-    if snail_rect < -100 :
+    if snail_rect.left <= 0:
      # that means that the snail will move to the right side of the screen
         snail_rect = 800
      # the 264 is the y position of the snail
