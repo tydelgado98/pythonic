@@ -16,7 +16,7 @@ text_surface = test_font.render('Pythonic', False, 'blue')
 # Images
 sky_surface = pygame.image.load('./assets/Sky.png').convert()
 game_ground = pygame.image.load('./assets/ground.png').convert()
-snail_surface = pygame.image.load('./assets/snail1.png').convert()
+snail_surface = pygame.image.load('./assets/snail1.png').convert_alpha()
 
 
 snail_x_pos = 800
