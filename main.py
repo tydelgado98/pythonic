@@ -45,10 +45,10 @@ while True:
         snail_rect.left = 800
      # the 264 is the y position of the snail
     screen.blit(snail_surface, snail_rect)
-    print(player_rect.left)
+    print("player is " + player_rect.left)
     screen.blit(player_surface, player_rect)
 
-    player_rect.collidedict()
+    print(player_rect.colliderect(snail_rect))
    
           
 
