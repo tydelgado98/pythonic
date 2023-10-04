@@ -47,6 +47,8 @@ while True:
     screen.blit(snail_surface, snail_rect)
     print(player_rect.left)
     screen.blit(player_surface, player_rect)
+
+    player_rect.collidedict()
    
           
 
