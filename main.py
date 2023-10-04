@@ -49,7 +49,9 @@ while True:
     screen.blit(player_surface, player_rect)
 
     if player_rect.colliderect(snail_rect):
-        
+        print("collision")
+        pygame.quit()
+        quit()
    
           
 
